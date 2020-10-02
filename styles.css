@@ -1,0 +1,237 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+  background-color: #f3f9fc;
+  font-family: proxima-nova,Helvetica Neue,Arial,sans-serif!important;
+  line-height: 2em;
+}
+.center{
+  text-align: center;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #4df7f5;
+  width: 100%;
+  position:fixed;
+  border-radius: 10px;
+}
+.name {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 16px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.hamburger {
+  float: right;
+  padding: 1px 16px;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+/* The sidebar menu */
+.sidenav {
+  width: 30%;
+  margin-top: 35px;
+  padding: 10px; 
+  float: left;
+  clear: left;
+  box-sizing: border-box;
+  
+}
+#profilepic {
+  width:100%;
+  background-color: white;
+  display: block;
+  border-radius: 50px;
+
+}
+.genralinfo{
+  background-color: #4df7f5;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 80px;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+h3{
+  margin:2px;
+  margin-top: 25px;
+}
+p{
+  margin:0;
+}
+.space {
+  margin-bottom: 2px;
+}
+.centre{
+  text-align: center;
+}
+#mainblock {
+  width:70%;
+  margin-top: 42px;
+  padding: 20px;
+  float: right;
+  box-sizing: border-box;
+}
+h2{
+  background-color: #4df7f5;
+  padding: 10px;
+  border-radius: 10px;
+}
+ul {
+  margin-top: 5px;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  float: right;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;
+  margin-top: 50px;
+  margin-left: 80%;
+float: right;
+position: fixed;
+width: 20%;
+}
+
+#project{
+  clear: both;
+  width: 90%;
+  margin: 020px auto;
+  background-color: #4df7f5;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+table {
+ clear: both;
+  width: 80%;
+  margin: 010px auto;
+
+}
+th  {
+  padding: 10px;
+}
+td {
+  padding: 5px;
+}
+th,td, table{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.footer{
+  clear: both; 
+}
+#foothead{
+  display: block;
+  width:90%;
+  text-align: center;
+  margin-top: 50px;
+  font: normal 16px/1em Proxima,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#sociallinks {
+  justify-content: center;
+  display: flex;
+  margin: 50px auto;	
+  }
+  .icons {
+    width: 70px;
+    height:70px;
+    line-height: 70px;
+    background-color: #4df7f5;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 32px;
+    color:black;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  #linkedin:hover{
+    color: white;
+    background-color: rgb(73, 73, 252);
+    border-radius: 100px;
+    box-shadow: 4px 3px rgb(214, 209, 209);
+  }
+  #mail:hover{
+    color: red;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 4px 4px rgb(214, 209, 209);
+  }
+  #whatsapp:hover{
+    color: white;
+    background-color: #25D366;
+    border-radius: 100px;
+    box-shadow: 4px 4px rgb(214, 209, 209);
+  }
+  #instagram:hover{
+    color: white;
+    background-image: linear-gradient( to bottom right,rgb(151, 96, 177),rgb(235, 16, 16),rgb(251, 255, 7));
+    border-radius: 100px;
+    box-shadow: 4px 4px rgb(214, 209, 209);
+  }
+  #cc{
+    margin-bottom: 30px;
+  }
+  #designer{
+    margin-top:30px;
+  }
+  
+
+
