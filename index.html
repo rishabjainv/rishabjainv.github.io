@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Rishab resume</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/72dbf9f64f.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		function myFunction(x) {
+			x.classList.toggle("change");
+			document.getElementById("myDropdown").classList.toggle("show");
+			// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.hamburger')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+		x.classList.toggle("change");
+      }
+    }
+  }
+}
+		}
+	</script>
+</head>
+
+<body>
+	<!-- top navigation -->
+	<div class="header">
+		<a class="name" href="index.html">Rishab jain v</a>
+		<div class="dropdown">
+			<div class="hamburger" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	</div>
+	<div id="myDropdown" class="dropdown-content">
+		<a href="#">Home</a>
+		<a href="#">Marks-Cards</a>
+		<a href="#">Certificates</a>
+	</div>
+	<!-- Side navigation -->
+	<div class="sidenav">
+		<div class="profilepic">
+			<img id="profilepic" src="profilepic.jpg">
+		</div>
+		<div class="genralinfo">
+			<h3>Email id:</h3>
+			<a
+				href="https://mail.google.com/mail/?view=cm&fs=1&to=rishabjain1012.rj@gmail.com">rishabjain1012.rj@gmail.com</a>
+			<h3>Contact Number</h3>
+			<p>9036739626</p>
+			<h3>Personal Data</h3>
+			<p class="space">Father Name:Vinod Kumar</p>
+			<p class="space">Mother Name:Sangeetha</p>
+			<p class="space">Date of Birth:10/12/1998</p>
+			<p class="space">Gender: Male</p>
+			<p class="space">Nationality: Indian</p>
+			<h3>Parmanent Adress</h3>
+			<p class="space">Beside Police station, P.S. Road, Pandavapura(TQ), Mandya(D),
+				Karnataka Pin-571434.</p>
+			<h3>Hobbies</h3>
+			<p class="space">Listening to music, Browsing about techical trending topics on digital media.</p>
+			<h3>Inter Personal Skills</h3>
+			<ul>
+				<li>Good Listener</li>
+				<li>Quick Learner</li>
+				<li>Ability to work in challenging and high pressure situations</li>
+				<li>Good palnning and thinking ability</li>
+				<li>Good in English, Hindi, and Kannada laungauge</li>
+			</ul>
+		</div>
+	</div>
+	<!-- main block-->
+	<div id="mainblock">
+		<h2>Carrer Objective</h2>
+		<p>To work for building solutions to existing problems in most efficiant way possible in terms of Time, Cost
+			and Quality which will lead to overall development.</p>
+		<h2>Academic Qualifications</h2>
+		<ul>
+			<li>Bachelors of Engineering in Electrical and Electronics from Vidya Vikas Institute of Engineering and
+				Technology(2016-2020), Mysore with an agregate of 8.2 CGPA </li>
+			<li>12th from Vidyaashram, Mysore with agregate of 75.33% (State board)</li>
+			<li>10th from Buds foundaton school with agregate of 89.19% (State board)</li>
+		</ul>
+		<h2>Techical Skills</h2>
+		<ul>
+			<li>HTML 5 (Above Average)</li>
+			<li>CSS 3 (Above Average)</li>
+			<li>javascript (Beginner)</li>
+			<li>Python (Beginner)</li>
+			<li>Django (Beginner)</li>
+			<li>IoT, Arduino, Robotics (Above Average)</li>
+		</ul>
+		<h2>Trainings</h2>
+		<ul>
+			<li>Internship at Toyota Kirlloskar Motors, Bidadi for the duration of 2 months</li>
+			<li>Workshop on Quadcopter based on arduino UNO and arduino NANO</li>
+			<li>Workshop on Robotics and IoT based on arduino and Blynk application</li>
+			<li>Completed course on Python Data Structures from Coursera offered by "University of Michigan"</li>
+		</ul>
+		<h2>Awards and Achievements</h2>
+		<ul>
+			<li>Internshala Student Partner representing Internshala at VVIT for duration of 2 Months.</li>
+			<li>Completed Internshala Talk-a-Thon Compitation by hosting online Talk</li>
+			<li>Won 3rd place in state level project compitaion 'Aveeeshkar' organized at VVIT </li>
+			<li>Won 1st in anveshana project compitation</li>
+			<li>Won 2nd place in online contest organized by 'Texes Instruments' in DSP test</li>
+			<li>Presented and Published Paper on "Smart Airport Baggage Tracking and Handling System Using IoT and Cloud
+				Computing"</li>
+			<li>Presented seminar on 'Green brain' Competition</li>
+			<li>Participated in E-step Startup bootcamp organized by Governament of Karnataka</li>
+
+		</ul>
+	</div>
+	<div id=project>Project Details</div>
+	<table>
+		<tr>
+			<th>Project name</th>
+			<th>Discription</th>
+		</tr>
+		<tr>
+			<td class="centre">Smart airport baggage tracking system</td>
+			<td>In this we designed a smart tag which was able to track the customers bag and show its exact location on user friendly GUI. It was also able to notify user whether the tag is connected to wifi or not.</td>
+		</tr>
+		<tr>
+			<td class="centre">Agrobot</td>
+			<td>This is a special design robot which is capable of moving on irregular surface such as farmer field. This was controlled using arduino nano with the help of blynk application and had many sensors integrated with it.</td>
+		</tr>
+		<tr>
+			<td class="centre">Quadcopter</td>
+			<td>In this project quadcopter was designed and programmed using Arduino Uno and NANO boards using PID control This was also able to detect obstacles such as buildings or trees and avoid accidents.</td>
+		</tr>
+	</table>
+	<div class="footer">
+		<h3 id="foothead">Connect With Me</h3>
+		<div id="sociallinks">
+			<a  id="linkedin" class="icons" href="https://www.linkedin.com/in/rishab-jain-15b130168"><i class="fab fa-linkedin-in"></i></a>
+			<a id="mail" class="icons" href="https://mail.google.com/mail/?view=cm&fs=1&to=rishabjain1012.rj@gmail.com"><i class="far fa-envelope"></i></a>
+			<a id="whatsapp" class="icons" href="https://api.whatsapp.com/send?phone=919036739626"><i class="fab fa-whatsapp"></i></a>
+			<a id="instagram" class="icons" href="https://instagram.com/rishabjain1012"><i class="fab fa-instagram"></i></a>
+		</div>
+		<div id="designer" class="center">Designed By: Rishab Jain</div>
+		<div id="cc" class="center">CC: 2020</div>
+	</div>
+</body>
