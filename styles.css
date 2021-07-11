@@ -70,7 +70,7 @@ body {
 
 }
 .genralinfo{
-  background-color: #4df7f5;
+  background-color: #b4b4b4;
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 80px;
@@ -98,7 +98,7 @@ p{
   box-sizing: border-box;
 }
 h2{
-  background-color: #4df7f5;
+  background-color: #b4b4b4;
   padding: 10px;
   border-radius: 10px;
 }
@@ -148,7 +148,7 @@ width: 20%;
   clear: both;
   width: 90%;
   margin: 020px auto;
-  background-color: #4df7f5;
+  background-color: #b4b4b4;
   padding: 10px;
   border-radius: 10px;
   font-size: 1.5em;
